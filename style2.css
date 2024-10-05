@@ -1,0 +1,17 @@
+body{
+    background-color: cornsilk;
+}
+h1{
+    color: orange;
+}
+p{
+    background-color: green;
+    color: gold;
+}
+#p1{
+    background-color: aqua;
+    color: brown;
+}
+.lastTwo{
+    color:magenta;
+}
