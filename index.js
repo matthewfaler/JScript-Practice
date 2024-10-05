@@ -73,7 +73,7 @@ console.log(Math.max(...numbers)); //Spread operator
 const power2 = (element, index, array) => array[index] = Math.pow(element, 2);
 
 numbers.forEach(power2); //callback to function expression. FUNCTION EXPRESSION MUST BE INITIALIZED FIRST BEFORE BEING USED
-console.log(...numbers);
+console.log(...numbers); //spread operator
 numbers.forEach(num => console.log(num)); //arrow function expression inside a forEach
 
 numbers.forEach((element, index, array) => array[index] = Math.pow(element, 0.5)); //arrow function expression used as a callback in a foreach
